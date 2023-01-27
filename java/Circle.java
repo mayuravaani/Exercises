@@ -11,6 +11,6 @@ class numbers{
         iint perimeter=2*(22/7)*radius;
         System.out.println("The x= "+x+"and y sum is= "+sum);
         System.out.println("The x= "+x+"and y multiply is= "+multiply);
-       //sdds
+       
     }
 }

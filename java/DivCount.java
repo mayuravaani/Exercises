@@ -9,3 +9,23 @@ Output Format
 Output a single number denoting how many integers are divisible by K.
 
 */
+import java.util.Scanner;
+
+class test{
+	public static void main(String[] args) {
+		 Scanner in = new Scanner(System.in);
+		 
+         System.out.println("Input the N number: ");
+		 int N = in.nextInt();
+		 System.out.println("Input the K number: ");
+		 int K = in.nextInt();
+		 
+		 
+		int count = 0;
+		for (int i = 1; i <= N; i++) {
+			if (N % i ==0) 
+				count++;
+		}
+		System.out.println(count);
+    }
+}
